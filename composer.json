@@ -1,0 +1,21 @@
+{
+    "name": "leo108/php_cas_server_oauth_plugin_center",
+    "description": "Oauth plugin classes for php_cas_server",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leo108",
+            "email": "leo108@qq.com"
+        }
+    ],
+    "homepage": "https://github.com/leo108/php_cas_server_oauth_plugin_center",
+    "require": {
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Leo108\\CASServer\\OAuth\\": "src"
+        }
+    }
+}

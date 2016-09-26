@@ -61,4 +61,12 @@ class PluginCenter
     {
         return $this->plugins;
     }
+
+    /**
+     * @param $fieldName
+     */
+    public function deregister($fieldName)
+    {
+        unset($this->plugins[$fieldName]);
+    }
 }

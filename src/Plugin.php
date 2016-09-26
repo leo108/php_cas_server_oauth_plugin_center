@@ -160,3 +160,4 @@ abstract class Plugin
      */
     abstract public function getOAuthUser(Request $request);
 }
+

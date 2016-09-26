@@ -11,7 +11,7 @@
     ],
     "homepage": "https://github.com/leo108/php_cas_server_oauth_plugin_center",
     "require": {
-        "laravel/framework": "5.2.*"
+        "symfony/http-foundation": "2.8.*|^3.0.0"
     },
     "autoload": {
         "psr-4": {

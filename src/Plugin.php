@@ -156,8 +156,9 @@ abstract class Plugin
 
     /**
      * @param Request $request
+     * @param string  $callback
      * @return OAuthUser
      */
-    abstract public function getOAuthUser(Request $request);
+    abstract public function getOAuthUser(Request $request, $callback = null);
 }
 
